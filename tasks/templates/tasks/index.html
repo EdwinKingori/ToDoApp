@@ -4,5 +4,22 @@
 {% endblock title %}
 
 {% block content %}
-    <h2>ToDo App</h2>
+    <table>
+        <tr>
+            <th> Items </th>
+            <th> </th>
+        </tr>
+        {% for task in tasks %}
+        <tr>
+            <td>
+                {{task.title}}
+            </td>
+            <td>
+                <a href="{% url "task_detail" task.id %}">View</a>
+            </td>
+        </tr>
+        {% empty %}
+            <h3> No items in the table.</h3>
+         {% endfor %}
+    </table>
 {% endblock content %}
