@@ -1,5 +1,39 @@
 
 body {
   margin: 0;
-  background-color: aquamarine;
+  background-color: rgb(14, 65, 48);
+  font-family: 'Nunito', sans-serif;
+  padding-top: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    {
+    font-family: "Raleway", sans-serif;
+}
+
+a,
+p
+ {
+  color: #4b5156;
+}
+
+.container {
+  max-width: 550px;
+  margin: auto;
+  background-color: rgb(57, 182, 94);
+  box-shadow: 2px 2px 13px -4px rgba(0,0,0,0.21);
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(90deg, #EEA390 0%, #EB796F 43%, #EB796F 100%);
 }
