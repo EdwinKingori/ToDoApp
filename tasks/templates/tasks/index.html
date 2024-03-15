@@ -25,7 +25,7 @@
              --> 
         <form method="post" action="{% url 'logout' %}">
             {% csrf_token %}
-            <button type="submit">logout</button>
+            <button class="button" type="submit">logout</button>
         </form>
     {% else %}
         <a href="{% url "login" %}">Login</a>
@@ -38,7 +38,7 @@
         <input type="text" name="search_area" placeholder="Search..." value="{{search_input}}">
         <input class="button" type="submit" value="search" >
     </form>
-    <a id="add-link" href="{% url "task_create" %}">Add task</a>
+    <a id="add-link" href="{% url "task_create" %}">&#43; Add task</a>
 </section>
  
 

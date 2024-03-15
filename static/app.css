@@ -88,9 +88,9 @@ p
 }
 
  #add-link {
-  color: #EB796F;
+  color: #cf3f8e;
   text-decoration: none;
-  font-size: 42px;
+  font-size: 20px;
   text-shadow: 1px 1px #81413b;
 }
 
@@ -128,4 +128,8 @@ label {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+}
+
+.card-body {
+  padding: 20px;
 }
